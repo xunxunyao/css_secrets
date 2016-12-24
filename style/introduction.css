@@ -1,0 +1,86 @@
+.i-mt{
+    margin-top:20px
+}
+
+button.btn{
+    padding:.3em .8em;
+    border:1px solid #446d88;
+    background:  #5588aa linear-gradient(#77a0bb,#58a);
+    border-radius: .2em;
+    box-shadow: 0 .05em .25em gray;
+    color:white;
+    text-shadow: 0 -.05em .05em #335166;
+    font-size: 125%;
+    line-height: 1.5;
+}
+button.btn-cover{
+    padding:.3em .8em;
+    border:1px solid rgba(0,0,0,.1);
+    background:  #5588aa linear-gradient(hsla(0,0%,100%,.2),transparent);
+    border-radius: .2em;
+    box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+    color:white;
+    text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+    font-size: 125%;
+    line-height: 1.5;
+}
+button.cancel{
+    background-color: #c00;
+}
+button.ok{
+    background-color: #6b0;
+}
+
+/*currentColor*/
+.show-hr {
+    color: #5588aa;
+}
+hr{
+    height: .5em;
+    background: currentColor;
+}
+.show-border {
+    color: #c00;
+    height: 30px;
+    width:500px;
+    border: 1px solid;
+    outline:1px dashed;
+    text-shadow: 0 .05em;
+    box-shadow: .5em 0;
+}
+
+/*inherit*/
+.inherit-parent{
+    color: #66bb00;
+}
+.inherit-parent p{
+    color:inherit;
+}
+.inherit-parent a{
+     color:#5588aa;
+ }
+.inherit-parent a:hover{
+    color:inherit;
+}
+.callout{
+    position: relative;
+    left: 5em;
+    top: 3px;
+    width: 200px;
+    height: 40px;
+    background:#f48484;
+    color: white;
+    line-height: 2;
+    text-indent: 1em;
+}
+.callout::before{
+    content: "";
+    position: absolute;
+    top:-.4em;left: 1em;
+    padding: .35em;
+    background: inherit;
+    border: inherit;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+}
