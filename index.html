@@ -10,17 +10,50 @@
 <button class="btn-cover">Yes!</button>
 <button class="btn-cover cancel">Yes!</button>
 <button class="btn-cover ok">Yes!</button>
-<div class="show-hr i-mt">下面将有一条水平分割线<hr>上面是颜色一样的分割线</div>
+<div class="show-hr i-mt">下面将有一条水平分割线（currentColor）
+    <hr>
+    上面是颜色一样的分割线
+</div>
 <div class="show-border i-mt">边框等颜色值就是文本的颜色值</div>
 <div class="inherit-parent i-mt">
     我是父元素
-    <p>字体的颜色继承于父元素<a href="#">link</a></p>
+    <p>字体的颜色继承于父元素（inherit）<a href="#">link</a></p>
 </div>
 <form class="inherit-dialog i-mt">
     <label>你的名字：</label>
     <input/>
-    <div class="callout">这是一个提示框</div>
+    <div class="callout">这是一个提示框（inherit）</div>
     </div>
 </form>
+<div class="flexbox-container i-mt">
+    <div class="initial">
+        flexbox：弹性布局空间足够的时候，我的宽度是200px，如果空间不足，我会变窄到100px，但不会再窄了。
+    </div>
+    <div class="none">
+        flexbox：无论窗口如何变化，我的宽度一直是200px。
+    </div>
+    <div class="flex1">
+        flexbox：我会占满剩余宽度的1/3。
+    </div>
+    <div class="flex2">
+        flexbox：我会占满剩余宽度的2/3。
+    </div>
+</div>
+<div class="flexbox-vertical-container i-mt">
+    用flex实现垂直居中布局
+</div>
+<div class="inlinebox-container">
+    <div class="box">
+        使用inline-block代替float
+    </div>
+    <div class="box">使用inline-block代替float</div>
+    <div class="box">使用inline-block代替float</div>
+    <div class="box">使用inline-block代替float</div>
+    <div class="box">使用inline-block代替float</div>
+    <div class="box">使用inline-block代替float</div>
+    <div class="box">使用inline-block代替float</div>
+    <div class="box">使用inline-block代替float</div>
+    <div class="box">使用inline-block代替float</div>
+</div>
 </body>
 </html>
