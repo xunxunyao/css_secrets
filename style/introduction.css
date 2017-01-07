@@ -122,10 +122,23 @@ hr{
     justify-content: center;
     background-color: #ffaebf;
 }
+/*inline-block*/
 .inlinebox-container .box{
     display: inline-block;
     width: 200px;
     height: 100px;
     margin: 1em;
     background-color: #f42b64;
+}
+/*background-clip*/
+.background-clip-container{
+    background-color: #f48484;
+    height: 100px;
+}
+.background-clip-container .main{
+    height: 50px;
+    width: 300px;
+    border:10px solid hsla(0,0%,100%,.5);
+    background: white;
+    background-clip:padding-box;
 }
