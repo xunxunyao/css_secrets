@@ -5,3 +5,17 @@
     0 0 0 15px deeppink,
     0 2px 5px 15px rgba(0, 0, 0, .6)
 }
+
+.background-origin-container {
+    width: 600px;
+    padding: 10px;
+    background: url("../images/gugu6.jpg") no-repeat #58a bottom right;
+    background-size:100px auto;
+    background-origin: content-box;
+}
+.background-calc-container{
+    width: 600px;
+    padding: 10px;
+    background: url("../images/gugu5.jpg") no-repeat #58a calc(100% - 10px) calc(100% - 20px);
+    background-size:100px auto;
+}
